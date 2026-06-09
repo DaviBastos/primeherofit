@@ -47,3 +47,6 @@ Versão mobile
 
 Equipe participante do hackathon 🚀
 (Davi Rafael de Andrade Bastos, Marcos Vinicius dos Santos Ferreira Guimarães)
+
+🌐Site Publicado
+https://primeherofit.lovable.app/
