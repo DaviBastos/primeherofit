@@ -21,7 +21,7 @@ function PlanPage() {
 
   if (!plan) return null;
   const { profile } = plan;
-  const bmi = (profile.weight / Math.pow(profile.height / 100, 2)).toFixed(1);
+  const bmi = (profile.weight / Math.pow(profile.height, 2)).toFixed(1);
 
   return (
     <div className="min-h-screen">

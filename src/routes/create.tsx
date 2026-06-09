@@ -97,8 +97,18 @@ function CreatePage() {
                 <Field label="Peso (kg)">
                   <Input type="number" min={30} max={250} value={form.weight ?? ""} onChange={(e) => set("weight", +e.target.value)} placeholder="70" />
                 </Field>
-                <Field label="Altura (cm)">
-                  <Input type="number" min={120} max={230} value={form.height ?? ""} onChange={(e) => set("height", +e.target.value)} placeholder="175" />
+                <Field label="Altura (m)">
+                  <Input
+                    type="text"
+                    inputMode="decimal"
+                    value={form.height ? String(form.height).replace(".", ",") : ""}
+                    onChange={(e) => {
+                      const raw = e.target.value.replace(",", ".");
+                      const n = parseFloat(raw);
+                      set("height", isNaN(n) ? (undefined as unknown as number) : n);
+                    }}
+                    placeholder="1,80"
+                  />
                 </Field>
               </div>
             </div>
