@@ -5,10 +5,6 @@ Treinos personalizados gerados por inteligência artificial
 HeroFit AI é uma aplicação web que cria planos de treino personalizados com base no perfil, objetivos e rotina do usuário.
 A ideia é transformar fitness em uma experiência simples, motivadora e gamificada.
 
-🚀 Demonstração
-
-👉 Acesse o projeto: (adicione seu link aqui depois do deploy)
-
 ✨ Funcionalidades
 
 📝 Formulário de perfil do usuário
@@ -24,7 +20,7 @@ O HeroFit AI transforma treinos em uma jornada estilo “super-herói”, onde c
 
 🛠️ Tecnologias utilizadas
 
-HTML / CSS / JavaScript (ou stack gerada pelo Lovable)
+HTML / CSS / JavaScript
 IA Generativa
 Design responsivo
 UI moderna inspirada em apps fitness e SaaS
@@ -40,7 +36,7 @@ Facilitar o acesso a treinos personalizados e motivar pessoas a manterem uma rot
 💡 Próximos passos (ideias futuras)
 
 Integração com apps de saúde
-Versão mobile
+Versão em aplicativo
 
 
 👨‍💻 Desenvolvido por
